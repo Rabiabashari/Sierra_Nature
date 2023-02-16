@@ -1,0 +1,311 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-image: linear-gradient(0deg, #01162797,#01162797), url(../images/lion_bg\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    opacity: .9;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.bw{
+    width: 90%;
+    margin: auto;
+}
+.h-topic{
+    align-items: center;
+    text-align: center;
+}
+.h-topic h5{
+    font-family: 'Montserrat', sans-serif;
+     color: #fff;
+     text-align: center;
+     margin-top: 150px;
+     text-transform: capitalize;
+     font-weight: 700;
+}
+.h-topic h1{
+      font-family: 'Montserrat', sans-serif;
+      color: #fff;
+      text-align: center;
+      font-size: 70px;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin: 50px 0px;
+      line-height: 1.4em;
+}
+.h-topic button{
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    text-align: center;
+    margin: auto;
+    border: none;
+    background-color: #dd3838;
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 0;
+    padding: 13px 35px;
+    border-radius: 30px;
+    transition: .3s all ease-in-out;
+}
+.h-topic button:hover{
+    background-color: #d42424;
+    color: #fff;
+}
+.icon{
+    color: #fff;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    margin: 0;
+    margin-left: 15px;
+    line-height: 1.9em;
+}
+.nav-link:hover{
+    color: #fff;
+}
+.btn-danger{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    margin-left: 20px;
+    border-radius:30px;
+    padding: 0;
+    padding: 13px 35px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.2em;
+    transition: .3 all ease-in-out;
+}
+.navbar-toggler{
+    background-color: #d42424;
+    color: #fff;
+    font-size: 20px;
+}
+.about_us{
+    padding: 110px 0px;
+    text-align: center;
+}
+.about_us h6{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    color: #011627;
+    font-weight: 700;
+    font-size: 18px;
+}
+.about_us h1{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 700;
+    color: #011627;
+    margin: 20px 0px;
+}
+.about_us p{
+    font-family: 'Montserrat', sans-serif;
+    color: #828584;
+    font-size: 15px;
+    margin: 40px 0px;
+}
+.about_us button{
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    text-align: center;
+    margin: auto;
+    border: none;
+    background-color: #dd3838;
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 0;
+    padding: 13px 35px;
+    border-radius: 30px;
+    transition: .3s all ease-in-out;
+}
+.about_us button:hover{
+    background-color: #d42424;
+    color: #fff;
+}
+.services{
+    background-image: linear-gradient(0deg, #01162797,#01162797), url(../images/lion_bg\ \(2\).jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     width: 100%;
+}
+.svg{
+    padding: 100px 0px;
+}
+.services h5{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 17px;
+    z-index: 1;
+    font-weight: 700;
+}
+.services h3{
+    font-family: 'Montserrat', sans-serif;
+     color: #fff;
+     font-size: 30px;
+     font-weight: 700;
+     z-index: 1;
+}
+.services h4{
+    font-family: 'Montserrat', sans-serif;
+     color: #fff;
+     font-size: 26px;
+     font-weight: 700;
+}
+.services p{
+    font-family: 'Montserrat', sans-serif;
+     color: #fff;
+     font-size: 17px;
+}
+.services span{
+     display: block;
+     height: 1px;
+     width: 100%;
+     background-color: #fff;
+     margin: 25px 0px;
+}
+.services_right{
+    height: 100%;
+    align-items: center;
+    margin: auto;
+}
+.services h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    margin: left;
+    font-size: 40px;
+    font-weight: 700;
+}
+.projects{
+    margin-top: 140px;
+    margin-bottom: 50px;
+}
+.projects h6{
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #011627;
+}
+.projects h2{
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #011627;
+}
+.p_img{
+    text-align: start;
+    margin-bottom: 140px;
+}
+.projects h4{
+    font-family: 'Montserrat', sans-serif;
+    color: #011627;
+    font-weight: 700;
+    margin: 13px 0px;
+}
+.projects h3{
+    font-family: 'Montserrat', sans-serif;
+   text-align: center;
+   font-size: 33px;
+   color: #011627;
+   font-weight: 700;
+}
+.projects p{
+    font-family: 'Montserrat', sans-serif;
+    color: #828584;
+    font-size: 18px;
+}
+.learn{
+    text-align: end;
+}
+.projects button{
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    margin: auto;
+    border: none;
+    background-color: #dd3838;
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 0;
+    padding: 15px 35px;
+    border-radius: 30px;
+    transition: .3s all ease-in-out;
+    text-align: center;
+    line-height: 1.2em;
+}
+.projects button:hover{
+    background-color: #d42424;
+    color: #fff;
+}
+footer{
+    background-color: #011627;
+    color: whitesmoke;
+    line-height: 2em;
+}
+.fs{
+    padding: 100px 0px;
+}
+.fs h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    margin: 10px 0px;
+    text-align: start;
+}
+.fs p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.fs ul{
+    list-style: none;
+    text-align: left;
+    margin-block-start: auto;
+    margin: 0;
+    padding: 0;
+}
+.fs ul li{
+    text-decoration: none;
+    text-align: left;
+    font-size: 17px;
+    transition: .5s all ease;
+}
+.fs ul li:hover{
+    color: #d42424;
+}
+.fs ul li a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: .5s all ease;
+    font-size: 17px;
+}
+.fs ul li a:hover{
+    color: #d42424;
+}
+.fe{
+   display: flex;
+   justify-content: space-between;
+   font-size: 18px;
+}
